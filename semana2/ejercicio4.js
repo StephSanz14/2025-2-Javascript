@@ -24,7 +24,7 @@ function obtenerMenor(numeros) {
   let menor = numeros[0];
   for (let i = 0; i < numeros.length; i++) {
     if (numeros[i] < menor) {
-      menor = numeros[i];
+      menor = numeros[i]; 
     }
   }
   return menor;

@@ -17,7 +17,7 @@ async function main() {
     const primerLetra = nombres2[index1][0].toLowerCase();
     for (let index2 = 0; index2 < vocales.length; index2++) {
       if (primerLetra === vocales[index2]) {
-        console.log(`${nombres2[index1]} empieza con ${vocales[index2].toUpperCase()}`);
+        console.log(`${nombres2[index1]} empieza con ${vocales[index2].toUpperCase()}`); 
       }
     }
   }
